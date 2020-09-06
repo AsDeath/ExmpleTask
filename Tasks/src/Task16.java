@@ -8,7 +8,7 @@ public class Task16 {
         a = input.nextInt();
         b = input.nextInt();
         if(a == b) System.out.println("These numbers are equal");
-        else if(a>b) System.out.printf("Number %d is large",a);
+        else if(a > b) System.out.printf("Number %d is large",a);
         else System.out.printf("Number %d is large",b);
     }
 }
