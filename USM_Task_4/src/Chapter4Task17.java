@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Recording {
+public class Chapter4Task17 {
    public static void main(String[] args){
        Scanner input = new Scanner(System.in);
        int miles, gallons, trips, count = 1;
