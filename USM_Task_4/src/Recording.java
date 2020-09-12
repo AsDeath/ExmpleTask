@@ -16,6 +16,7 @@ public class Recording {
            miles = input.nextInt();
            System.out.printf("Enter gallons for trip %d: \n",count);
            gallons = input.nextInt();
+
            if(gallons<=0 || miles<0) repeat = true;
            if(!repeat){
                 calculate = (double)miles/gallons;
