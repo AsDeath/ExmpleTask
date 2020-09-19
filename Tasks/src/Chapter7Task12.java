@@ -15,14 +15,17 @@ public class Chapter7Task12 {
         }
 
         System.out.println("Output unique data: ");
-        int count = 0;
+        boolean check = false;
         for(int i=0; i<N; i++){
             for(int j = 0; j<N; j++){
                 if(i==j) continue;
-                if(Arr[i]==Arr[j]) count++;
+                if(Arr[i]==Arr[j]) {
+                    check = true;
+                    break;
+                }
             }
-            if(count==0) System.out.printf("%3d   ", Arr[i]);
-            count=0;
+            if(check==false) System.out.printf("%3d   ", Arr[i]);
+            check=false;
         }
     }
 }
